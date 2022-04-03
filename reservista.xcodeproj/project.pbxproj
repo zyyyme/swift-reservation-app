@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C17E36F27F976B5009B2538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E36E27F976B5009B2538 /* AppDelegate.swift */; };
+		3C17E37127F976B5009B2538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E37027F976B5009B2538 /* SceneDelegate.swift */; };
+		3C17E37327F976B5009B2538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E37227F976B5009B2538 /* ViewController.swift */; };
+		3C17E37627F976B5009B2538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17E37427F976B5009B2538 /* Main.storyboard */; };
+		3C17E37827F976B5009B2538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C17E37727F976B5009B2538 /* Assets.xcassets */; };
+		3C17E37B27F976B5009B2538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17E37927F976B5009B2538 /* LaunchScreen.storyboard */; };
+		3C17E38627F976B5009B2538 /* reservistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E38527F976B5009B2538 /* reservistaTests.swift */; };
+		3C17E39027F976B6009B2538 /* reservistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E38F27F976B6009B2538 /* reservistaUITests.swift */; };
+		3C17E39227F976B6009B2538 /* reservistaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C17E38227F976B5009B2538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C17E36327F976B5009B2538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C17E36A27F976B5009B2538;
+			remoteInfo = reservista;
+		};
+		3C17E38C27F976B6009B2538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C17E36327F976B5009B2538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C17E36A27F976B5009B2538;
+			remoteInfo = reservista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C17E36B27F976B5009B2538 /* reservista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reservista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17E36E27F976B5009B2538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C17E37027F976B5009B2538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C17E37227F976B5009B2538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C17E37527F976B5009B2538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C17E37727F976B5009B2538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C17E37A27F976B5009B2538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C17E37C27F976B5009B2538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C17E38127F976B5009B2538 /* reservistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17E38527F976B5009B2538 /* reservistaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservistaTests.swift; sourceTree = "<group>"; };
+		3C17E38B27F976B6009B2538 /* reservistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C17E38F27F976B6009B2538 /* reservistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservistaUITests.swift; sourceTree = "<group>"; };
+		3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservistaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C17E36827F976B5009B2538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E37E27F976B5009B2538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E38827F976B6009B2538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C17E36227F976B5009B2538 = {
+			isa = PBXGroup;
+			children = (
+				3C17E36D27F976B5009B2538 /* reservista */,
+				3C17E38427F976B5009B2538 /* reservistaTests */,
+				3C17E38E27F976B6009B2538 /* reservistaUITests */,
+				3C17E36C27F976B5009B2538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C17E36C27F976B5009B2538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C17E36B27F976B5009B2538 /* reservista.app */,
+				3C17E38127F976B5009B2538 /* reservistaTests.xctest */,
+				3C17E38B27F976B6009B2538 /* reservistaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C17E36D27F976B5009B2538 /* reservista */ = {
+			isa = PBXGroup;
+			children = (
+				3C17E36E27F976B5009B2538 /* AppDelegate.swift */,
+				3C17E37027F976B5009B2538 /* SceneDelegate.swift */,
+				3C17E37227F976B5009B2538 /* ViewController.swift */,
+				3C17E37427F976B5009B2538 /* Main.storyboard */,
+				3C17E37727F976B5009B2538 /* Assets.xcassets */,
+				3C17E37927F976B5009B2538 /* LaunchScreen.storyboard */,
+				3C17E37C27F976B5009B2538 /* Info.plist */,
+			);
+			path = reservista;
+			sourceTree = "<group>";
+		};
+		3C17E38427F976B5009B2538 /* reservistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C17E38527F976B5009B2538 /* reservistaTests.swift */,
+			);
+			path = reservistaTests;
+			sourceTree = "<group>";
+		};
+		3C17E38E27F976B6009B2538 /* reservistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C17E38F27F976B6009B2538 /* reservistaUITests.swift */,
+				3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */,
+			);
+			path = reservistaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C17E36A27F976B5009B2538 /* reservista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C17E39527F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservista" */;
+			buildPhases = (
+				3C17E36727F976B5009B2538 /* Sources */,
+				3C17E36827F976B5009B2538 /* Frameworks */,
+				3C17E36927F976B5009B2538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reservista;
+			productName = reservista;
+			productReference = 3C17E36B27F976B5009B2538 /* reservista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C17E38027F976B5009B2538 /* reservistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C17E39827F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservistaTests" */;
+			buildPhases = (
+				3C17E37D27F976B5009B2538 /* Sources */,
+				3C17E37E27F976B5009B2538 /* Frameworks */,
+				3C17E37F27F976B5009B2538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C17E38327F976B5009B2538 /* PBXTargetDependency */,
+			);
+			name = reservistaTests;
+			productName = reservistaTests;
+			productReference = 3C17E38127F976B5009B2538 /* reservistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C17E38A27F976B6009B2538 /* reservistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C17E39B27F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservistaUITests" */;
+			buildPhases = (
+				3C17E38727F976B6009B2538 /* Sources */,
+				3C17E38827F976B6009B2538 /* Frameworks */,
+				3C17E38927F976B6009B2538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C17E38D27F976B6009B2538 /* PBXTargetDependency */,
+			);
+			name = reservistaUITests;
+			productName = reservistaUITests;
+			productReference = 3C17E38B27F976B6009B2538 /* reservistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C17E36327F976B5009B2538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3C17E36A27F976B5009B2538 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3C17E38027F976B5009B2538 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3C17E36A27F976B5009B2538;
+					};
+					3C17E38A27F976B6009B2538 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3C17E36A27F976B5009B2538;
+					};
+				};
+			};
+			buildConfigurationList = 3C17E36627F976B5009B2538 /* Build configuration list for PBXProject "reservista" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C17E36227F976B5009B2538;
+			productRefGroup = 3C17E36C27F976B5009B2538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C17E36A27F976B5009B2538 /* reservista */,
+				3C17E38027F976B5009B2538 /* reservistaTests */,
+				3C17E38A27F976B6009B2538 /* reservistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C17E36927F976B5009B2538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17E37B27F976B5009B2538 /* LaunchScreen.storyboard in Resources */,
+				3C17E37827F976B5009B2538 /* Assets.xcassets in Resources */,
+				3C17E37627F976B5009B2538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E37F27F976B5009B2538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E38927F976B6009B2538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C17E36727F976B5009B2538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17E37327F976B5009B2538 /* ViewController.swift in Sources */,
+				3C17E36F27F976B5009B2538 /* AppDelegate.swift in Sources */,
+				3C17E37127F976B5009B2538 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E37D27F976B5009B2538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17E38627F976B5009B2538 /* reservistaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C17E38727F976B6009B2538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C17E39227F976B6009B2538 /* reservistaUITestsLaunchTests.swift in Sources */,
+				3C17E39027F976B6009B2538 /* reservistaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C17E38327F976B5009B2538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C17E36A27F976B5009B2538 /* reservista */;
+			targetProxy = 3C17E38227F976B5009B2538 /* PBXContainerItemProxy */;
+		};
+		3C17E38D27F976B6009B2538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C17E36A27F976B5009B2538 /* reservista */;
+			targetProxy = 3C17E38C27F976B6009B2538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C17E37427F976B5009B2538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C17E37527F976B5009B2538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C17E37927F976B5009B2538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C17E37A27F976B5009B2538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C17E39327F976B6009B2538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C17E39427F976B6009B2538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C17E39627F976B6009B2538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reservista/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C17E39727F976B6009B2538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = reservista/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C17E39927F976B6009B2538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservista.app/reservista";
+			};
+			name = Debug;
+		};
+		3C17E39A27F976B6009B2538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservista.app/reservista";
+			};
+			name = Release;
+		};
+		3C17E39C27F976B6009B2538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reservista;
+			};
+			name = Debug;
+		};
+		3C17E39D27F976B6009B2538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vlad.reservistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reservista;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C17E36627F976B5009B2538 /* Build configuration list for PBXProject "reservista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17E39327F976B6009B2538 /* Debug */,
+				3C17E39427F976B6009B2538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C17E39527F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17E39627F976B6009B2538 /* Debug */,
+				3C17E39727F976B6009B2538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C17E39827F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17E39927F976B6009B2538 /* Debug */,
+				3C17E39A27F976B6009B2538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C17E39B27F976B6009B2538 /* Build configuration list for PBXNativeTarget "reservistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C17E39C27F976B6009B2538 /* Debug */,
+				3C17E39D27F976B6009B2538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C17E36327F976B5009B2538 /* Project object */;
+}
