@@ -48,9 +48,9 @@ struct Restaurant: Equatable, Codable {
     }
     
     static func loadSampleRestaurants() -> [Restaurant] {
-        let rest1 = Restaurant(id: "6b10t", name: "Classic Brooklyn Pizza", description: "Finest pizza in the whole New York Downtown", address: "Puchkova, 10", price: 3, menu: "google.com", image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg")
-        let rest2 = Restaurant(id: "6b12c", name: "Vintage Aged Rome Pizza", description: "Our pizza is at least five hundred years old!", address: "Puchkova, 12", price: 2, menu: "ya.ru", image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg")
-        let rest3 = Restaurant(id: "6b092u", name: "Modern Pineapple Pizza", description: "Some may find it awful, but we like our pizza with 2kg of pineapples on it!", address: "Puchkova, 9", price: 3, menu: "yahoo.com", image: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg")
+        let rest1 = Restaurant(id: "6b10t", name: "Classic Brooklyn Pizza", description: "Finest pizza in the whole New York Downtown", address: "Puchkova, 10", price: 3, menu: "google.com", image: "")
+        let rest2 = Restaurant(id: "6b12c", name: "Vintage Aged Rome Pizza", description: "Our pizza is at least five hundred years old!", address: "Puchkova, 12", price: 2, menu: "ya.ru", image: "")
+        let rest3 = Restaurant(id: "6b092u", name: "Modern Pineapple Pizza", description: "Some may find it awful, but we like our pizza with 2kg of pineapples on it!", address: "Puchkova, 9", price: 3, menu: "yahoo.com", image: "")
         
         return [rest1, rest2, rest3]
     }

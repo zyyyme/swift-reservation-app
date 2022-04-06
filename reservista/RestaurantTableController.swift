@@ -39,7 +39,9 @@ class RestaurantTableController: UITableViewController {
         cell.restaurantAddress.text = restaurant.address
         cell.restaurantPrice.text = String(repeating: "₽", count: restaurant.price)
         cell.restaurantPrice.textColor = .white
-        cell.restaurantImage.loadurl(url: URL(string: restaurant.image)!)
+        if restaurant.image != "" {
+            cell.restaurantImage.loadurl(url: URL(string: restaurant.image)!)
+        }
         
         return cell
     }
@@ -50,6 +52,7 @@ class RestaurantTableController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             selectedRestaurant = indexPath.row
+            print(selectedRestaurant)
             performSegue(withIdentifier: "ShowRestaurant", sender: self)
         }
     
@@ -63,7 +66,6 @@ class RestaurantTableController: UITableViewController {
               self.tableView.reloadData()
             }
         }
-        print(self.restaurants)
         if self.restaurants.isEmpty {
             restaurants = Restaurant.loadSampleRestaurants()
         }
@@ -71,7 +73,6 @@ class RestaurantTableController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var destinationViewController = segue.destination
-        print(segue.destination)
         
         if let navigationController = destinationViewController as? UINavigationController {
             destinationViewController = navigationController.visibleViewController ?? destinationViewController
@@ -81,7 +82,12 @@ class RestaurantTableController: UITableViewController {
     
     @IBSegueAction private func showRestaurant(coder: NSCoder, sender: Any?, segueIdentifier: String?)
         -> RestaurantInfoController? {
-        return RestaurantInfoController(coder: coder, restaurant: restaurants[selectedRestaurant])
+            print(selectedRestaurant)
+            guard let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) else {
+                return nil
+            }
+            tableView.deselectRow(at: indexPath, animated: true)
+            return RestaurantInfoController(coder: coder, restaurant: restaurants[indexPath.row])
     }
 }
 

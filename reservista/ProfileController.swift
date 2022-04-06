@@ -21,7 +21,9 @@ class ProfileController: UITableViewController {
         let reservation = reservations[indexPath.row]
         cell.placeLabel.text = reservation.restaurant.name
         cell.dateLabel.text = reservation.date
-        cell.restaurantImage.loadurl(url: URL(string: reservation.restaurant.image)!)
+        if reservation.restaurant.image != "" {
+            cell.restaurantImage.loadurl(url: URL(string: reservation.restaurant.image)!)
+        }
         
         return cell
     }
