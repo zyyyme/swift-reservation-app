@@ -30,22 +30,6 @@ struct Reservation: Equatable, Codable {
         let data: [Reservation]
     }
     
-    static func loadReservations(completionHandler: @escaping ([Reservation], NSError?) -> Void) {
-        let url = URL(string: "http://localhost:8000/api/v1/reservations/\(Constants().userId)")!
-        let session = URLSession.shared.dataTask(with: url) {(data, response, error) in
-            guard let data = data else { return }
-            let jsonDecoder = JSONDecoder()
-            do {
-                let response = try jsonDecoder.decode(ReservationsJSON.self, from: data)
-                completionHandler(response.data, nil)
-                
-            } catch {
-                print("JSON Decoding error: ", error)
-            }
-        }
-        session.resume()
-    }
-    
     static func saveReservations(_ Reservations: [Reservation]) {
         let propertyListEncoder = PropertyListEncoder()
         let codedToDos = try? propertyListEncoder.encode(Reservations)

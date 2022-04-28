@@ -22,10 +22,27 @@ extension UIImageView {
     }
 }
 
+extension UIImage
+{
+    func resizedImage(Size sizeImage: CGSize) -> UIImage?
+    {
+        let frame = CGRect(origin: CGPoint.zero, size: CGSize(width: sizeImage.width, height: sizeImage.height))
+        UIGraphicsBeginImageContextWithOptions(frame.size, false, 0)
+        self.draw(in: frame)
+        let resizedImage: UIImage? = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.withRenderingMode(.alwaysOriginal)
+        return resizedImage
+    }
+}
+
 
 class RestaurantTableController: UITableViewController {
     var restaurants = [Restaurant]()
+    var profileImageUrl: URL?
     var selectedRestaurant = 0
+
+    @IBOutlet var profileButton: UIButton!
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restaurants.count
@@ -59,15 +76,50 @@ class RestaurantTableController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Restaurant.loadRestaurants { (data, error) -> Void in
-            self.restaurants = data
-            print(self.restaurants)
-            DispatchQueue.main.async{
-              self.tableView.reloadData()
+        ReservationController.shared.fetchRestaurants { (result) -> Void in
+            switch result {
+            case .success(let data):
+                DispatchQueue.main.async{
+                    self.restaurants = data
+                    print(self.restaurants)
+                    self.tableView.reloadData()
+                }
+            case .failure(let error):
+                self.displayError(error, title: "There was an error :(")
             }
+            
+           
         }
+        
         if self.restaurants.isEmpty {
             restaurants = Restaurant.loadSampleRestaurants()
+        }
+        
+        ReservationController.shared.fetchUser() { (result) in
+            switch result {
+            case .success(let data):
+                DispatchQueue.main.async{ [self] in
+                    self.profileImageUrl = URL(string: data.image)!
+                    let image = try? UIImage(data: Data(contentsOf: self.profileImageUrl!))
+                    let smallerImage = image?.resizedImage(Size: CGSize(width: 40, height: 40))
+                    try? self.profileButton.setImage(smallerImage, for: .normal)
+                    self.profileButton.contentMode = .scaleAspectFit
+                    self.profileButton.imageView?.contentMode = .scaleAspectFit
+                    self.profileButton.imageView?.layer.masksToBounds = true
+                    self.profileButton.imageView?.layer.cornerRadius = 20
+                    self.tableView.reloadData()
+                }
+            case .failure(let error):
+                self.displayError(error, title: "There was an error :(")
+            }
+        }
+    }
+    
+    func displayError(_ error: Error, title: String) {
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: title, message: error.localizedDescription, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     }
     

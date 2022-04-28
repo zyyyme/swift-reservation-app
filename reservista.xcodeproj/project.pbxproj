@@ -16,10 +16,17 @@
 		3C17E38627F976B5009B2538 /* reservistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E38527F976B5009B2538 /* reservistaTests.swift */; };
 		3C17E39027F976B6009B2538 /* reservistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E38F27F976B6009B2538 /* reservistaUITests.swift */; };
 		3C17E39227F976B6009B2538 /* reservistaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */; };
+		3C214753280D5C7C00DECB45 /* LoginCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C214752280D5C7C00DECB45 /* LoginCocoaViewController.swift */; };
+		3C214755280D68D500DECB45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C214754280D68D500DECB45 /* RegisterViewController.swift */; };
+		3C42F7D5280EE54500B6CB73 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42F7D4280EE54500B6CB73 /* ProfileViewController.swift */; };
+		3C5A476B280DAA35008C07BC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A476A280DAA35008C07BC /* MenuBar.swift */; };
+		3C690BCF2808952C00287FA1 /* ReservationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C690BCE2808952C00287FA1 /* ReservationController.swift */; };
+		3C690BD1280896C400287FA1 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C690BD0280896C400287FA1 /* ResponseModels.swift */; };
 		3C83A07E27FB2EBD00E21CA1 /* ReservationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83A07D27FB2EBD00E21CA1 /* ReservationCard.swift */; };
 		3C856F0127F990E10068A064 /* RestaurantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C856F0027F990E10068A064 /* RestaurantCard.swift */; };
 		3C856F0327F991910068A064 /* RestaurantTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C856F0227F991910068A064 /* RestaurantTableController.swift */; };
 		3C856F0527F991D80068A064 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C856F0427F991D80068A064 /* Restaurant.swift */; };
+		3C96E50D280EE7C3004A0474 /* ProfileReservationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96E50C280EE7C3004A0474 /* ProfileReservationTableView.swift */; };
 		3CB32AC427FC009200F4AD4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB32AC327FC009200F4AD4E /* Constants.swift */; };
 		3CBB190A27F9B5B90062E2C1 /* RestaurantInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB190927F9B5B90062E2C1 /* RestaurantInfoController.swift */; };
 		3CBB190C27F9B5C80062E2C1 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB190B27F9B5C80062E2C1 /* RestaurantInfo.swift */; };
@@ -60,10 +67,17 @@
 		3C17E38B27F976B6009B2538 /* reservistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C17E38F27F976B6009B2538 /* reservistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservistaUITests.swift; sourceTree = "<group>"; };
 		3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservistaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C214752280D5C7C00DECB45 /* LoginCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCocoaViewController.swift; sourceTree = "<group>"; };
+		3C214754280D68D500DECB45 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3C42F7D4280EE54500B6CB73 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3C5A476A280DAA35008C07BC /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		3C690BCE2808952C00287FA1 /* ReservationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationController.swift; sourceTree = "<group>"; };
+		3C690BD0280896C400287FA1 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
 		3C83A07D27FB2EBD00E21CA1 /* ReservationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCard.swift; sourceTree = "<group>"; };
 		3C856F0027F990E10068A064 /* RestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCard.swift; sourceTree = "<group>"; };
 		3C856F0227F991910068A064 /* RestaurantTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableController.swift; sourceTree = "<group>"; };
 		3C856F0427F991D80068A064 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		3C96E50C280EE7C3004A0474 /* ProfileReservationTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileReservationTableView.swift; sourceTree = "<group>"; };
 		3CB32AC327FC009200F4AD4E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3CBB190927F9B5B90062E2C1 /* RestaurantInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoController.swift; sourceTree = "<group>"; };
 		3CBB190B27F9B5C80062E2C1 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
@@ -122,6 +136,9 @@
 		3C17E36D27F976B5009B2538 /* reservista */ = {
 			isa = PBXGroup;
 			children = (
+				3C214751280D5C4700DECB45 /* Models */,
+				3C214750280D5C2D00DECB45 /* Views */,
+				3C21474F280D5C0F00DECB45 /* Controller */,
 				3C17E36E27F976B5009B2538 /* AppDelegate.swift */,
 				3C17E37027F976B5009B2538 /* SceneDelegate.swift */,
 				3C17E37227F976B5009B2538 /* ViewController.swift */,
@@ -129,16 +146,6 @@
 				3C17E37727F976B5009B2538 /* Assets.xcassets */,
 				3C17E37927F976B5009B2538 /* LaunchScreen.storyboard */,
 				3C17E37C27F976B5009B2538 /* Info.plist */,
-				3C856F0027F990E10068A064 /* RestaurantCard.swift */,
-				3C856F0227F991910068A064 /* RestaurantTableController.swift */,
-				3C856F0427F991D80068A064 /* Restaurant.swift */,
-				3CBB190927F9B5B90062E2C1 /* RestaurantInfoController.swift */,
-				3CBB190B27F9B5C80062E2C1 /* RestaurantInfo.swift */,
-				3CBB190D27F9DD390062E2C1 /* ReservationsPicker.swift */,
-				3CF984A927F9F7E6006CF776 /* Reservation.swift */,
-				3CF984AD27FAAF89006CF776 /* ProfileController.swift */,
-				3CF984AF27FAB002006CF776 /* User.swift */,
-				3C83A07D27FB2EBD00E21CA1 /* ReservationCard.swift */,
 			);
 			path = reservista;
 			sourceTree = "<group>";
@@ -158,6 +165,44 @@
 				3C17E39127F976B6009B2538 /* reservistaUITestsLaunchTests.swift */,
 			);
 			path = reservistaUITests;
+			sourceTree = "<group>";
+		};
+		3C21474F280D5C0F00DECB45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C690BCE2808952C00287FA1 /* ReservationController.swift */,
+				3C690BD0280896C400287FA1 /* ResponseModels.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C214750280D5C2D00DECB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C856F0027F990E10068A064 /* RestaurantCard.swift */,
+				3C856F0227F991910068A064 /* RestaurantTableController.swift */,
+				3CBB190927F9B5B90062E2C1 /* RestaurantInfoController.swift */,
+				3CBB190B27F9B5C80062E2C1 /* RestaurantInfo.swift */,
+				3CBB190D27F9DD390062E2C1 /* ReservationsPicker.swift */,
+				3CF984AD27FAAF89006CF776 /* ProfileController.swift */,
+				3C83A07D27FB2EBD00E21CA1 /* ReservationCard.swift */,
+				3C214752280D5C7C00DECB45 /* LoginCocoaViewController.swift */,
+				3C214754280D68D500DECB45 /* RegisterViewController.swift */,
+				3C5A476A280DAA35008C07BC /* MenuBar.swift */,
+				3C42F7D4280EE54500B6CB73 /* ProfileViewController.swift */,
+				3C96E50C280EE7C3004A0474 /* ProfileReservationTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C214751280D5C4700DECB45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C856F0427F991D80068A064 /* Restaurant.swift */,
+				3CF984A927F9F7E6006CF776 /* Reservation.swift */,
+				3CF984AF27FAB002006CF776 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +338,8 @@
 			files = (
 				3C17E37327F976B5009B2538 /* ViewController.swift in Sources */,
 				3C17E36F27F976B5009B2538 /* AppDelegate.swift in Sources */,
+				3C96E50D280EE7C3004A0474 /* ProfileReservationTableView.swift in Sources */,
+				3C42F7D5280EE54500B6CB73 /* ProfileViewController.swift in Sources */,
 				3CF984AA27F9F7E6006CF776 /* Reservation.swift in Sources */,
 				3C856F0527F991D80068A064 /* Restaurant.swift in Sources */,
 				3CBB190A27F9B5B90062E2C1 /* RestaurantInfoController.swift in Sources */,
@@ -300,11 +347,16 @@
 				3C856F0327F991910068A064 /* RestaurantTableController.swift in Sources */,
 				3CF984AE27FAAF89006CF776 /* ProfileController.swift in Sources */,
 				3CF984B027FAB002006CF776 /* User.swift in Sources */,
+				3C214755280D68D500DECB45 /* RegisterViewController.swift in Sources */,
 				3CBB190E27F9DD390062E2C1 /* ReservationsPicker.swift in Sources */,
 				3C83A07E27FB2EBD00E21CA1 /* ReservationCard.swift in Sources */,
+				3C5A476B280DAA35008C07BC /* MenuBar.swift in Sources */,
+				3C690BCF2808952C00287FA1 /* ReservationController.swift in Sources */,
 				3CB32AC427FC009200F4AD4E /* Constants.swift in Sources */,
 				3C856F0127F990E10068A064 /* RestaurantCard.swift in Sources */,
 				3C17E37127F976B5009B2538 /* SceneDelegate.swift in Sources */,
+				3C214753280D5C7C00DECB45 /* LoginCocoaViewController.swift in Sources */,
+				3C690BD1280896C400287FA1 /* ResponseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

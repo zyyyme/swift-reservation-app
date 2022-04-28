@@ -32,7 +32,9 @@ class RestaurantInfoController: UITableViewController {
             cell.restaurantName.text = restaurant.name
             cell.restaurantAddress.text = restaurant.address
             cell.restaurantPrice.text = String(repeating: "₽", count: restaurant.price)
-            cell.restaurantImage.loadurl(url: URL(string: restaurant.image)!)
+            if restaurant.image != "" {
+                cell.restaurantImage.loadurl(url: URL(string: restaurant.image)!)
+            }
             cell.restaurantDescription.text = restaurant.description
         }
         return cell

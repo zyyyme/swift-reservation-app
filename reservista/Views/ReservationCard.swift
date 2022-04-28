@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ReservationCard: UITableViewCell {
+class ReservationCard: UICollectionViewCell {
     @IBOutlet var placeLabel: UILabel!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var restaurantImage: UIImageView!
